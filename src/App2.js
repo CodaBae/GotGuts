@@ -2,17 +2,12 @@ import React, { Component } from 'react';
 import { Tabs, Icon } from 'antd';
 import { Carousel } from 'antd';
 import './App.css';
-import AboutUs from './AboutUs';
-import Button from './Button';
 import WatchV from './WatchV';
-import Contact from './contact';
-import ModalExampleControlled from './modal';
-import ModalExampleControlled1 from './modal1';
 import Uploads from './Upload';
 import Footer from './Footer';
-import Login from './Login';
+import Timeline1 from './Timeline';
 
-class App extends Component {
+class App2 extends Component {
 	render() {
 		const TabPane = Tabs.TabPane;
 
@@ -21,12 +16,12 @@ class App extends Component {
 		}
 
 		return (
-			<div className="App">
-				<Tabs defaultActiveKey="1" onChange={callback} type="line" tabPosition="top-right">
+			<div style={{ padding: 10 }}>
+				<Tabs defaultActiveKey="2" onChange={callback} type="line" tabPosition="left" className='Tab'>
 					<TabPane
 						tab={
 							<span>
-								<Icon type="home" theme="twoTone" />Know Us
+								<Icon type="picture" theme="twoTone" />Explore
 							</span>
 						}
 						key="1"
@@ -55,13 +50,10 @@ class App extends Component {
 								<img src={require('./img/c4.jpg')} alt="download me" className="img" />
 							</div>
 						</Carousel>
-
-						<AboutUs />
-						<ModalExampleControlled />
+						<WatchV />
 
 						<div className="footer">
 							<h1 className="footerT">GotGuts</h1>
-
 							<Footer />
 						</div>
 					</TabPane>
@@ -69,39 +61,17 @@ class App extends Component {
 					<TabPane
 						tab={
 							<span>
-								<Icon type="picture" theme="twoTone" />Explore
+							<Icon type="dashboard" theme="outlined" />Timeline
 							</span>
 						}
 						key="2"
 					>
 						<h1 className="GotGuts">GotGuts</h1>
+						<Timeline1 />
 
-						<Carousel autoplay>
-							<div>
-								{' '}
-								<img src={require('./img/m.jpg')} alt="download me" className="img" />{' '}
-							</div>
-							<div>
-								{' '}
-								<img src={require('./img/c1.jpg')} alt="download me" className="img" />
-							</div>
-							<div>
-								{' '}
-								<img src={require('./img/c3.jpg')} alt="download me" className="img" />
-							</div>
-							<div>
-								{' '}
-								<img src={require('./img/c2.jpg')} alt="download me" className="img" />
-							</div>
-							<div>
-								{' '}
-								<img src={require('./img/c4.jpg')} alt="download me" className="img" />
-							</div>
-						</Carousel>
-						<WatchV />
-						<ModalExampleControlled />
 						<div className="footer">
 							<h1 className="footerT">GotGuts</h1>
+
 							<Footer />
 						</div>
 					</TabPane>
@@ -123,34 +93,9 @@ class App extends Component {
 							<Footer />
 						</div>
 					</TabPane>
-
-					<TabPane
-						tab={
-							<span>
-								<Icon type="contacts" theme="twoTone" />Connect
-							</span>
-						}
-						key="5"
-					>
-						<h1 className="GotGuts">GotGuts</h1>
-
-						<Contact />
-					</TabPane>
-
-					<TabPane
-						tab={
-							<span>
-								<Icon type="user" theme="outlined" />
-								Check In
-							</span>
-						}
-						key="4"
-					>
-						<Login />
-					</TabPane>
 				</Tabs>
 			</div>
 		);
 	}
 }
-export default App;
+export default App2;

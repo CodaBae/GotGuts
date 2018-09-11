@@ -1,363 +1,547 @@
 @import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Magra|Merienda+One');
 
-
-.App{
-  display: flex;
-
-  
+.App {
+	display: flex;
 }
-
 
 .ant-tabs-nav-container {
-  font-size: 15px;
-  line-height: 2.5;
-  white-space: nowrap;
-  color: #056ecf;
+	font-size: 16px;
+	line-height: 2.5;
+	white-space: nowrap;
+	color: #056ecf;
+	font-family: 'Merienda One', sans-serif;
+}
+.A_login {
+	font-size: 16px;
+	line-height: 2.5;
+	color: #056ecf;
 }
 
-.ant-tabs-nav .ant-tabs-tab-active{
-color: red;
-text-decoration: underline;
+.ant-tabs-nav .ant-tabs-tab-active {
+	color: red;
+	text-decoration: underline;
 }
-.ant-tabs-nav .ant-tabs-tab:hover{
-  color: rgba(38, 35, 35, 0.795);
-  
-  }
-  .ant-tabs-nav-scroll{
-    background: white;
-    padding: 1%;
-    padding-bottom: 0%;
+.ant-tabs-nav .ant-tabs-tab:hover {
+	color: rgba(38, 35, 35, 0.795);
+}
+.ant-tabs-nav-scroll {
+	padding: 1%;
+	padding-bottom: 0%;
 }
 
-  .ant-carousel .slick-slide {
-    text-align: center;
-    height: 550px;
-    line-height: 160px;
-    background: white;
-    overflow: hidden;
-    margin: 0;
-  
-    
-  }
-  
-  .ant-carousel .slick-slide h3 {
-    color: #fff;
-  }
-  .img{
-    width: 100%;
-    height: 550px;
-    }
-
-.About{
-  height: 800px;
-  text-align: center;
-  background: #056ecf;
-  
-  margin: 3%;
-  padding: 1%;
-}
-.AboutD{
-  
-  width: 45%;
-  border: 1px solid white;
-  padding: 2%;
-  margin: 5%;
-  margin-top: 8%
-  
-
+.ant-carousel .slick-slide {
+	text-align: center;
+	height: 620px;
+	line-height: 160px;
+	background: white;
+	overflow: hidden;
+	margin: 0;
 }
 
-.AboutT{
-  justify-content:center;
-  font-weight: 1;
-  margin: 5px;
-  font-size: 1.2rem;
-  padding-left: 10%;
-  padding-top:5%;
-  font-family: 'Merienda One', sans-serif;
-  color: white;
-
+.ant-carousel .slick-slide h3 {
+	color: #fff;
 }
-.AboutH{
-  
-  text-align: center;
-  color: white;
-  border-bottom: 1px solid white;
-
-
-}
-.AboutHT{
-  font-weight: 5;
-  font-family: 'Fredericka the Great', cursive;
-  color: white;
-}
-.button{
-  flex-direction: row;
-  text-align: center;
-  margin: 1%;
-  width: 100%;
- 
-  
-}
-.buttonL{
-  background-color: rgb(245, 13, 13);
-  border: red;
-  padding: 2%;
-  width: 30%;
- color: white;
- font-size: 1.5rem;
- cursor: pointer;
- font-family: 'Merienda One', sans-serif;
- text-align: center;
-
- 
-
-}
-.buttonS{
-  background-color: #056ecf;
-  border: #056ecf;
-  padding: 2%;
-  width: 30%;
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Merienda One', sans-serif;
-  cursor: pointer;
-  text-align: center;
-  margin-bottom: 5%;
-  margin-left: 20%;
-  
-}
-.imgG{
-width: 30%;
-float: right;
-margin-top: -56.5%;
-margin-right: 10%;
-height: 50px;
-}
-.Gi{
-  width: 30%;
-  margin-left: 10%;
-  margin-bottom: 3%;
-  cursor: pointer;
-
-}
-.WD{
-
-padding: 5%;
-background: #056ecf;
-margin: 1%;
-margin-bottom: 3%;
-
-}
-.WI{
-  width: 100%;
-  box-shadow: 1px 1px 1px 1px
-
-
-}.WII{
-
-width: 32.7%;
-
-}
-.WT{
-  color: white;
-  font-weight: 1;
-  font-family: 'Fredericka the Great', cursive;
-
-
-}
-.ContactD{
-border-bottom: 1px solid white;
-border-left: 1px solid white;
-border-right: 1px solid white;
-border-top: 1px solid white;
-width: 80%;
-margin-left: 10%;
-height: 100%;
-padding: 3%;
-margin-bottom: 5%;
-
-
-}
-.con{
-  background: #056ecf;
-  height: 850px;
-  padding: 3%;
+.img {
+	width: 100%;
+	height: 650px;
 }
 
-.ContactT{
-  font-weight: 1;
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-  font-family: 'Fredericka the Great', cursive;
+.About {
+	height: 800px;
+	text-align: center;
+	background: #056ecf;
+	font-family: 'Merienda One', sans-serif;
+	margin: 3%;
+	padding: 1%;
 }
-.ContactI{
-
-  margin-bottom: 5%;
-  padding-top: 4%;
-  width: 45%;
-  margin-top: 2%;
-  background: transparent;
-}
-.ContactH{
-  font-family: 'Merienda One', sans-serif;
-  margin-bottom: -0.9%;
-  font-weight: 1;
-  margin-left:0.5%;
-  color: white
-}
-.Hi{
-  width: 100%;
-  height: 40%;
-  margin-bottom: 5%;
+.AboutD {
+	width: 45%;
+	border: 1px solid white;
+	padding: 2%;
+	margin: 5%;
+	margin-top: 8%;
 }
 
-.ContactF{
-  float: right;
-  width: 50%;
-margin-top: -54.5%;
+.AboutT {
+	justify-content: center;
+	font-weight: 1;
+	margin: 5px;
+	font-size: 1.2rem;
+	padding-left: 10%;
+	padding-top: 5%;
+	font-family: 'Merienda One', sans-serif;
+	color: white;
+}
+.AboutH {
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.AboutHT {
+	font-weight: 5;
+	font-family: 'Fredericka the Great', cursive;
+	color: white;
+}
+.button {
+	flex-direction: row;
+	text-align: center;
+	margin: 1%;
+	width: 100%;
+}
+.buttonL {
+	background-color: rgb(245, 13, 13);
+	border: red;
+	padding: 2%;
+	width: 30%;
+	color: white;
+	font-size: 1.5rem;
+	cursor: pointer;
+	font-family: 'Merienda One', sans-serif;
+	text-align: center;
+}
+.buttonS {
+	background-color: #056ecf;
+	border: #056ecf;
+	padding: 2%;
+	width: 30%;
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Merienda One', sans-serif;
+	cursor: pointer;
+	text-align: center;
+	margin-bottom: 5%;
+	margin-left: 20%;
+}
+.imgG {
+	width: 70%;
+	float: right;
+	margin-top: -60%;
+	margin-right: -10%;
+	height: 870px;
+}
+.Gi {
+	width: 30%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+.WD {
+	padding: 5%;
+	background: #056ecf;
+	margin: 1%;
+	margin-bottom: 3%;
+}
+.WI {
+	width: 100%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.WII {
+	width: 32.7%;
+}
+.WT {
+	color: white;
+	font-weight: 1;
+	font-family: 'Fredericka the Great', cursive;
+}
+.ContactD {
+	border-left: 1px solid #056ecf;
+	border-right: 1px solid #056ecf;
+	width: 80%;
+	margin-left: 10%;
+	height: 50%;
+	padding: 3%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+}
 
-
-
+.ContactT {
+	font-weight: 1;
+	font-size: 3rem;
+	text-align: center;
+	color: #056ecf;
+	font-family: 'Fredericka the Great', cursive;
 }
 .ContactI {
-  margin-bottom: 3%;
-  padding-top: 4%;
-  width: 45%;
-  margin-top: 2%;
-  background: transparent;
+	border: none;
+	margin-bottom: 5%;
+	padding-top: 4%;
+	width: 140%;
+	margin-top: 2%;
+	border: 1px solid #056ecf;
+	padding: 11%;
 }
-.ui.input.focus > input, .ui.input > input:focus{
-  background: transparent;
-  border: 1px solid red;
+.ContactH {
+	font-family: 'Merienda One', sans-serif;
+	margin-bottom: -0.9%;
+	font-weight: 1;
+	margin-left: 0.5%;
 }
-.ContactHT{
-  font-family: 'Merienda One', sans-serif;
-  margin-top: 10.5%;
-  font-weight: 1;
-  margin-left:0.5%;
-  float: right;
+.ContactD1{
+	width: 35%;
+margin-top: 6%;
+	
+}
+.Hi {
+	width: 100%;
+	height: 40%;
+	margin-bottom: 5%;
+}
 
-}
-.IconD{
-  margin-top: 5%;
-  text-align: center;
- 
-}
-.Icon{
-  margin-left: 2%;
-  margin-right: 2%;
-  cursor: pointer;
-  
-}
-.modal{
-  font-size: 2rem;
-  font-weight: 1;
-}
-.ContactIM{
-  padding:2%;
-  margin-bottom: 5%;
-  width: 100%;
-  margin-top: 2%;
-}
-.ContactDM{
-  border-bottom: 1px solid white;
-border-left: 1px solid white;
-border-right: 1px solid white;
-width: 80%;
-margin-left: 10%;
-height: 50%;
-padding: 3%;
-margin-bottom: 5%;
-
-}
-.SignupT{
-  text-align: center;
-  font-weight: 1;
-  font-size: 2rem;
-  color: white;
-  font-family: 'Merienda One', sans-serif;
-}
-.contactform{
-  margin: 20px;
+.ContactF {
+	float: right;
+	width: 50%;
+	margin-top: -54.5%;
+	border: 1px solid #056ecf;
 }
 .ContactHT {
-  font-family: 'Merienda One', sans-serif;
-  margin-top: 11.5%;
-  font-weight: 1;
-  margin-left: 0.5%;
-  float: right;
-  color: white;
+	font-family: 'Merienda One', sans-serif;
+	margin-top: 10.5%;
+	font-weight: 1;
+	margin-left: 0.5%;
+	float: right;
 }
 
-input{
-  margin-bottom: 5px;
-  height: 20px;
-  border: 1px solid #d8d8d8;
-  padding: 3px;
-  background: transparent;
-
+.ui.input.focus > input,
+.ui.input > input:focus {
+	background: transparent;
+	border: 1px solid red;
+}
+.ContactHT {
+	font-family: 'Merienda One', sans-serif;
+	margin-top: 10.5%;
+	font-weight: 1;
+	margin-left: 0.5%;
+	float: right;
+}
+.IconD {
+	text-align: center;
+	border-left: 1px solid #056ecf;
+	border-right: 1px solid #056ecf;
+	border-bottom: 1px solid #056ecf;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+.Icon {
+	margin-left: 2%;
+	margin-right: 2%;
+	cursor: pointer;
+}
+.modal {
+	font-size: 2rem;
+	font-weight: 1;
+}
+.ContactIM {
+	padding: 2%;
+	margin-bottom: 5%;
+	width: 100%;
+	margin-top: 2%;
+}
+.ContactDM {
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	width: 80%;
+	margin-left: 10%;
+	height: 50%;
+	padding: 3%;
+	margin-bottom: 5%;
+}
+.SignupT {
+	text-align: center;
+	font-weight: 1;
+	font-size: 2rem;
+	color: white;
+	font-family: 'Merienda One', sans-serif;
+}
+.contactform {
+	margin: 20px;
+}
+.ContactHT {
+	font-family: 'Merienda One', sans-serif;
+	margin-top: 11.5%;
+	font-weight: 1;
+	margin-left: 0.5%;
+	float: right;
+	color: white;
 }
 
+input {
+	margin-bottom: 5px;
+	height: 20px;
+	border: 1px solid #d8d8d8;
+	padding: 3px;
+	background: transparent;
+}
 
 .ui.form textarea {
-  background: transparent;
-border: 1px solid white;
-  vertical-align: bottom;
-  margin-top: 21%;
-  margin-left: 26%;
-
+	background: transparent;
+	border: 1px solid white;
+	vertical-align: bottom;
+	margin-top: 21%;
+	margin-left: 26%;
 }
 
-button{
-  padding: 10px;
-  border: 1px solid #d8d8d8;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+button {
+	padding: 10px;
+	border: 1px solid #d8d8d8;
+	background-color: #f9f9f9;
+	border-radius: 3px;
 }
 
-.error{
-  margin-left: 5px;
-  font-size: 13px;
-  color: red;
+.error {
+	margin-left: 5px;
+	font-size: 13px;
+	color: red;
 }
-.modal{
-  color: white;
+.modal {
+	color: white;
+}
+.SignupT {
+	color: #056ecf;
+}
+
+.ContactIM {
+	background: transparent;
+	border: 1.5px solid white;
+
+	padding: 1.679em 1em;
+
+	background: transparent;
+
+	border: 1px solid white;
+
+	color: rgba(0, 0, 0, .87);
+
+	border-radius: .28571429rem;
+}
+.ui.input > input {
+	background: transparent;
+	border: 1.5px solid white;
+
+	padding: 1.679em 1em;
+
+	background: transparent;
+
+	border: 1px solid white;
+
+	color: rgba(0, 0, 0, .87);
+
+	border-radius: .28571429rem;
+}
+
+.ant-upload-list-item-info > span {
+	display: block;
+
+	background: transparent;
+
+	margin: 6%;
+
+	padding: 1.5%;
+
+	color: #056ecf;
+
+	border: 1px solid;
+}
+.ant-upload {
+	height: 10000px;
+}
+
+.ant-upload-list {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+}
+#components-form-demo-normal-login .login-form {
+	max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+	float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+	width: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.ant-btn-primary {
+	color: #fff;
+	background-color: #1890ff;
+	border-color: #1890ff;
+	margin-left: 8%;
+}
+.ant-btn,
+.ant-btn:active,
+.ant-btn:focus {
+	outline: 0;
+}
+.ant-btn {
+	line-height: 1.5;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	white-space: nowrap;
+	padding: 0 15px;
+	font-size: 14px;
+	border-radius: 4px;
+	height: 32px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+	position: relative;
+	color: rgba(0, 0, 0, 0.65);
+	background-color: #fff;
+	border-color: #d9d9d9;
+}
+button {
+	padding: 10px;
+	border: 1px solid #d8d8d8;
+	background-color: #f9f9f9;
+	border-radius: 3px;
+}
+
+.GotGuts {
+	color: red;
+	text-align: center;
+	margin: 3%;
+	font-weight: 1;
+	font-size: 3rem;
+	font-family: 'Fredericka the Great', cursive;
+}
+.footer {
+	background: white;
+	height: 220px;
+	border-top: 1px solid rgb(228, 217, 217);
+	padding: 2%;
+}
+.footerT {
+	color: red;
+	text-align: center;
+	font-weight: 1;
+	font-size: 3rem;
+	margin-top: 2%;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+.Copyright {
+	color: red;
+	text-align: center;
+	margin-top: 1.5%;
+}
+
+.LoginD {
+	width: 100%;
+	display: flex;
+}
+.LoginC1 {
+	width: 50%;
+	margin: 1%;
+	box-shadow: 1px 1px 1px 1px;
+}
+.LoginC2 {
+	width: 50%;
+	padding: 5%;
+}
+.LoginH {
+	text-align: center;
+	color: red;
+	font-weight: 1;
+	font-family: 'Fredericka the Great', cursive;
+}
+.InputD {
+	border: 1px solid #056ecf;
+	padding: 5%;
+	margin: 2%;
+	width: 100%;
+	height: 410px;
+	margin-left: -3%;
+	margin-right: 5%;
+}
+.InputL {
+	background: transparent;
+	border: 1px solid #056ecf;
+	padding: 5%;
+	margin: 3%;
+	width: 95%;
+	margin-left: 2.5%;
+}
+.ContactHL {
+	font-family: 'Merienda One', sans-serif;
+	margin-bottom: 1%;
+	font-weight: 1;
+	margin-left: 2.5%;
+}
+
+.ui.red.button,
+.ui.red.buttons .button {
+	background-color: #db2828;
+	color: #fff;
+	text-shadow: none;
+	background-image: none;
+	margin-left: 2.5%;
+	font-family: 'Merienda One';
+	width: 95%;
+	margin: 3%;
+	font-weight: 1;
+}
+
+.BigRedButton {
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	
+	margin-top: -5%;
+	border-left: 1px solid #056ecf;
+	border-right: 1px solid #056ecf;
+}
+.IconDF{
+	margin-top:2%;
+	text-align: center;
+}
+.ant-tabs-vertical.ant-tabs-left > .ant-tabs-bar {
+	float: left;
+	border-right: 1px solid #e8e8e8;
+	margin-right: -1px;
+	margin-bottom: 0;
+	margin-top: 18%;
+}
+.Timeline{
+	display: flex;
+}
+.TimelineC1{
 
 }
-.SignupT{
-  color: #056ecf
+.TimelineC2{
+border: 1px solid #056ecf;
+margin: 3%;
+padding: 5%
 }
-
-.ContactIM{
-background: transparent;
-border: 1.5px solid white;
-
-
-padding: 1.679em 1em;
-
-background: transparent;
-
-border: 1px solid white;
-
-color: rgba(0,0,0,.87);
-
-border-radius: .28571429rem;
-
-}
-.ui.input > input{
-background: transparent;
-border: 1.5px solid white;
-
-
-padding: 1.679em 1em;
-
-background: transparent;
-
-border: 1px solid white;
-
-color: rgba(0,0,0,.87);
-
-border-radius: .28571429rem;
+.TimelineCT{
+	font-weight: 1;
+	font-size: 3rem;
+	text-align: center;
+	color: red;
+	font-family: 'Merienda One', sans-serif;
 }

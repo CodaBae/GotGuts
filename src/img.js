@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
 
-
 class Img extends Component {
-    
-    render() {
-       
-      return (
-        <div className="imgG">
+	render() {
+		return (
+			<div>
+				<img src={require('./img/GotgutsImg.png')} alt="download me" className="imgG"/>
+			</div>
+		);
+	}
+}
 
-        <img src={require('./img/GotgutsImg.png')} alt='download me' />
-       
-       
-        </div>
-      );
-    }
-  }
-  
-  export default Img;
-  
+export default Img;
